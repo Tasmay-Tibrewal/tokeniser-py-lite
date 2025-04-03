@@ -1,5 +1,7 @@
 ### 📄 `README.md`
-# 🧠 Custom Tokeniser Library
+# 🔣 tokeniser-py-lite
+
+**Imp Links: [PyPI Library](https://pypi.org/project/tokeniser-py-lite/) | [PyPI Main Library (tokeniser-py)](https://pypi.org/project/tokeniser-py/) | [Main Library GitHub (tokeniser-py)](https://github.com/Tasmay-Tibrewal/tokeniser-py) | [Demo (HF Spaces)](https://huggingface.co/spaces/Tasmay-Tib/Tokeniser-py) | [Complete repo (unchunked) - HF](https://huggingface.co/datasets/Tasmay-Tib/Tokeniser) | [Complete repo (chunked) - GitHub](https://github.com/Tasmay-Tibrewal/Tokeniser) | [Imp Files Github](https://github.com/Tasmay-Tibrewal/Tokeniser-imp)**
 
 A high-performance, fully custom tokeniser built from scratch — no BPE, no existing NLP tokenisation scheme. This tokeniser is based on a unique algorithm developed independently and trained on over **1 billion tokens** from the **SlimPajama dataset** (Val + Test), providing an efficient, interpretable, and extendable tokenisation pipeline.
 
