@@ -1,7 +1,7 @@
 ### 📄 `CHANGELOG`
 # 📦 Changelog
 
-## [0.1.0] - 2025-03-22
+## [0.1.0] - 2025-04-04
 ### Added
 - Initial release of custom tokeniser library
 - Light-weight version of the original python library tokeniser-py
@@ -15,6 +15,11 @@
   - 0.5B val-only vocab
   - 1B val + test vocab
 - JSON-based token and count maps from SlimPajama corpus
+
+## [0.1.1] - 2025-04-04
+### Added
+- Corrected dates in Changelog
+- Updated Readme
 
 ### Notes
 - Built on top of a **custom token creation algorithm** not based on any standard BPE/WordPiece method
