@@ -1,0 +1,22 @@
+### 📄 `CHANGELOG`
+# 📦 Changelog
+
+## [0.1.0] - 2025-03-22
+### Added
+- Initial release of custom tokeniser library
+- Light-weight version of the original python library tokeniser-py
+- Tokeniser class with support for:
+  - `tokenise()` using DP segmentation
+  - Custom token map and count map loading
+  - One-hot encoding support (NumPy & PyTorch)
+  - Token and token ID visualisation functions
+  - `token_map()`, `token_count_map()`, `max_token_length()` accessors
+- Full support for:
+  - 0.5B val-only vocab
+  - 1B val + test vocab
+- JSON-based token and count maps from SlimPajama corpus
+
+### Notes
+- Built on top of a **custom token creation algorithm** not based on any standard BPE/WordPiece method
+- SlimPajama dataset used for vocab extraction
+- Token count files are optimized to stay under 2GB for compatibility with Git LFS (and Hugging Face storage)
